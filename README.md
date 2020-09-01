@@ -46,9 +46,7 @@ Targeted Cloud Foundry (https://api.us-south.cf.cloud.ibm.com)
 Targeted org comps381f01@study.ouhk.edu.hk
 
 Targeted space dev
-
-
-                      
+                  
 API endpoint:      https://cloud.ibm.com   
 Region:               
 User:              comps381f01@study.ouhk.edu.hk   
