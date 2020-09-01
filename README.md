@@ -30,7 +30,7 @@ npm start
 http://localhost:8099
 ```
 
-# Deplpy a simple Node.js app to IBM Cloud
+# Deploy to IBM Cloud
 1. Make sure you are inside the folder containing the app.
 ```
 cd ~/ibmcloud/helloworld
