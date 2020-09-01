@@ -1,39 +1,46 @@
 # Getting Started with IBM Cloud
-This tutorial shows you how to deploy a sample Node.js app to IBM Cloud.  The sample app that you are going to deploy is a server app that responds to `HTTP GET` requests and returns a simple text message `Hello World!`
+This tutorial demonstrates how you deploy a simple Node.js app to IBM Cloud.  This is a server-side app that responds to HTTP `GET` requests and returns a simple text message `Hello World!`
 
 # Preparation
-1. Create a **free** account at https://cloud.ibm.com
+1. Create a **free** account at https://cloud.ibm.com.  Write down your ID and password.
 
-2. Download the sample app to your *home* directory
+2. Download the sample app to your *home* directory.
 ```
 cd ~
 git clone https://github.com/raymondwcs/ibmcloud
 ```
 3. It is always a good idea to verify that the app is working fine in your local machine *before* deploying it to the cloud.
+3.1 Go into the folder containing the server-side app.
 ```
 cd ~/ibmcloud/helloworld
+```
+3.2 Install the app's dependencies.
+```
 npm install
+```
+3.3 Run the server app.
+```
 npm start
 ```
-4. Test your app.  Go to the following URL
+4. Test your app.  Open the following URL in your web browser.
 ```
 http://localhost:8099
 ```
 
 # Deplpy a simple Node.js app to IBM Cloud
-1. Make sure you are inside the folder containing the sample app
+1. Make sure you are inside the folder containing the app.
 ```
 cd ~/ibmcloud/helloworld
 ```
-2. Login to IBM cloud
+2. Login to IBM cloud. Enter your ID and password when prompted.
 ```
 bx cf login
 ```
-3. Select a **region** for your app
+3. Select a **region** for your app.
 ```
 bx target --cf
 ```
-Select `us-south` when prompted
+Select `us-south` when prompted.
 ```
 Select a Cloud Foundry instance:
 1. public CF us-south (https://api.us-south.cf.cloud.ibm.com)
@@ -81,7 +88,7 @@ start command:   npm start
      state     since                  cpu    memory         disk          details
 #0   running   2020-09-01T07:07:13Z   0.0%   45.7M of 64M   85.3M of 1G   
 ```
-5. Test your app.  Go to the URL shown in the `routes`.  In this tutorial the URL is `http://rs202009011306.mybluemix.net`
+5. Test your app.  Go to the URL shown in the `routes`.  In this tutorial the URL is `http://rs202009011306.mybluemix.net`.
 
 # Other Useful Commands
 1. To redeploy an app.  Let's say we made some changes to `rs202009011306` and we want to redeploy it.
