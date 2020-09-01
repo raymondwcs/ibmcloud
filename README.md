@@ -57,11 +57,12 @@ Org:               comps381f01@study.ouhk.edu.hk
 Space:             dev  
 ```
 4. Deploy (upload) your app to IBM Cloud
-You need to find a **unique** name for your app.  I use `rs202009011306` in this tutorial.  If the deployment is successful, you will be able to run your app at `http://rs202009011306.mybluemix.net`.
+You need to find a **unique** name for your app.  Apps on IBM Cloud are named XXXXXXXX@mybluemix.net where XXXXXXXX is the name of your app.
+I use `rs202009011306` as the name of my app in this tutorial.  If the deployment is successful, you will be able to see your app running at `http://rs202009011306.mybluemix.net`.
 ```
 bx cf push -m 64m rs202009011306
 ```
-It takes 2 to 3 minutes to upload for your app.  If things go well, you will see the following messages.
+It takes 3-4 minutes to upload and activate for your app in the cloud.  If things go well, you will see the following messages.
 ```
 Waiting for app to start...
 
