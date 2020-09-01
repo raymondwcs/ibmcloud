@@ -61,7 +61,7 @@ You need to find a **unique** name for your app.  I use `rs202009011306` in this
 ```
 bx cf push -m 64m rs202009011306
 ```
-It takes 2 to 3 minutes to upload for your.  If things go well, you will see the following messages.
+It takes 2 to 3 minutes to upload for your app.  If things go well, you will see the following messages.
 ```
 Waiting for app to start...
 
