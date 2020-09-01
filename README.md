@@ -81,3 +81,35 @@ start command:   npm start
 ```
 5. Test your app.  Go to the URL shown in the `routes`.  In this tutorial the URL is `http://rs202009011306.mybluemix.net`
 
+# Other Useful Commands
+1. To redeploy an app.  Let's say we made some changes to `rs202009011306` and we want to redeploy it.
+```
+bx cf push -m 64m rs202009011306
+```
+2. To see a list of apps that you have deployed to IBM Cloud
+```
+bx cf apps
+```
+This command returns a list of apps that are running in IBM Cloud
+```
+Invoking 'cf apps'...
+
+Getting apps in org comps381f01@study.ouhk.edu.hk / space dev as comps381f01@study.ouhk.edu.hk...
+OK
+
+name             requested state   instances   memory   disk   urls
+rs202009011306   started           1/1         64M      1G     rs202009011306.mybluemix.net
+```
+3. To delete `rs202009011306` in IBM cloud.
+```
+bx cf delete rs202009011306
+```
+Wait for the following messages
+```
+Invoking 'cf delete rs202009011306'...
+
+
+Really delete the app rs202009011306?> yes
+Deleting app rs202009011306 in org comps381f01@study.ouhk.edu.hk / space dev as comps381f01@study.ouhk.edu.hk...
+OK
+```
