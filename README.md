@@ -4,7 +4,7 @@ This tutorial shows you how to deploy a sample Node.js app to IBM Cloud.  The sa
 # Preparation
 1. Create a **free** account at https://cloud.ibm.com
 
-2. Download the sample app to your **home* directory
+2. Download the sample app to your *home* directory
 ```
 cd ~
 git clone https://github.com/raymondwcs/ibmcloud
