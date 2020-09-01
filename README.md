@@ -62,7 +62,7 @@ I use `rs202009011306` as the name of my app in this tutorial.  If the deploymen
 ```
 bx cf push -m 64m rs202009011306
 ```
-It takes 3-4 minutes to upload and activate for your app in the cloud.  If things go well, you will see the following messages.
+It takes 3-4 minutes to upload and activate for your app in the cloud.  If things go well, you will see the following messages at the end of deployment.
 ```
 Waiting for app to start...
 
