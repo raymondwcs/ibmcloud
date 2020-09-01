@@ -1,5 +1,5 @@
-# Getting Starte with IBM Cloud
-This tutorial shows you how to deploy a simple Node.js app to IBM Cloud.  This app that you are going to deploy is a server app that responds to `HTTP GET` requests and returns a simple text message `Hello World!`
+# Getting Started with IBM Cloud
+This tutorial shows you how to deploy a sample Node.js app to IBM Cloud.  The sample app that you are going to deploy is a server app that responds to `HTTP GET` requests and returns a simple text message `Hello World!`
 
 # Preparation
 1. Create a **free** account at https://cloud.ibm.com
