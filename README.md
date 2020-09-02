@@ -114,7 +114,7 @@ rs202009011306   started           1/1         64M      1G     rs202009011306.my
 ```
 bx cf delete rs202009011306
 ```
-Wait for the following messages
+Type `yes` when prompted to confirm delete.
 ```
 Invoking 'cf delete rs202009011306'...
 
