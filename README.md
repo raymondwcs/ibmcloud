@@ -54,7 +54,7 @@ Select a Cloud Foundry instance:
 Enter a number> 1
 Targeted Cloud Foundry (https://api.us-south.cf.cloud.ibm.com)
 
-Targeted org comps381f01@study.ouhk.edu.hk
+Targeted org comps?????@study.ouhk.edu.hk
 
 Targeted space dev
                   
