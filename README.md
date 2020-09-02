@@ -60,11 +60,11 @@ Targeted space dev
                   
 API endpoint:      https://cloud.ibm.com   
 Region:               
-User:              comps381f01@study.ouhk.edu.hk   
-Account:           R S's Account (0dab305e49d942809feacf8edb0cf86b)   
+User:              comps?????@study.ouhk.edu.hk   
+Account:           R S's Account (0dab305e49d942809feacf8edb???????)   
 Resource group:    No resource group targeted, use 'bx target -g RESOURCE_GROUP'   
 CF API endpoint:   https://api.us-south.cf.cloud.ibm.com (API version: 2.152.0)   
-Org:               comps381f01@study.ouhk.edu.hk   
+Org:               comps?????@study.ouhk.edu.hk   
 Space:             dev  
 ```
 4. Deploy (upload) your app to IBM Cloud
