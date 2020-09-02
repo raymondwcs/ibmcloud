@@ -89,7 +89,7 @@ start command:   npm start
      state     since                  cpu    memory         disk          details
 #0   running   2020-09-01T07:07:13Z   0.0%   45.7M of 64M   85.3M of 1G   
 ```
-5. Test your app.  Open the URL shown in `routes` above.  In this tutorial the URL is `http://rs202009011306.mybluemix.net`.
+5. Test your app.  Open the URL shown in `routes` above in your web broswer.  In this tutorial, the URL is `http://rs202009011306.mybluemix.net`.
 
 # Other Useful Commands
 1. To redeploy an app.  Let's say we made some changes to `rs202009011306` and we want to redeploy it.
