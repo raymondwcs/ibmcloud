@@ -11,19 +11,19 @@ git clone https://github.com/raymondwcs/ibmcloud
 ```
 3. It is always a good idea to verify that the app is working fine in your local machine *before* deploying it to the cloud.
 
-   Go into the folder containing the server-side app.
+    Go into the folder containing the server-side app.
 ```
-cd ~/ibmcloud/helloworld
-```
-
-Install the app's dependencies.
-```
-npm install
+    cd ~/ibmcloud/helloworld
 ```
 
-Run the server app.
+    Install the app's dependencies.
 ```
-npm start
+    npm install
+```
+
+    Run the server app.
+```
+    npm start
 ```
 4. Test your app by sending to it a HTTP `GET` request.  Open the following URL in your web browser.
 ```
