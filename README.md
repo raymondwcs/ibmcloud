@@ -11,7 +11,7 @@ git clone https://github.com/raymondwcs/ibmcloud
 ```
 3. It is always a good idea to verify that the app is working fine in your local machine *before* deploying it to the cloud.
 
-Go into the folder containing the server-side app.
+   Go into the folder containing the server-side app.
 ```
 cd ~/ibmcloud/helloworld
 ```
