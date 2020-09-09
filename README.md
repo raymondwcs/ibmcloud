@@ -26,6 +26,7 @@ Run the server app.
 npm start
 ```
 4. Test your app by sending to it a HTTP `GET` request.  Open http://127.0.0.1:8099 in your web browser.
+5. Stop your app by pressing Ctrl-C in your terminal.
 
 
 # Deploy to IBM Cloud
