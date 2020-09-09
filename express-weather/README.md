@@ -1,17 +1,22 @@
 # A Simple Server-side Weather App
 ## Overview
-This is a simple Node.js app written using the [Express.js](https://expressjs.com) framework.
+This is a simple app written using the [Express.js](https://expressjs.com) framework.
 ![Express-weather](381F-T01.jpg?raw=true "Weather App")
 
 ## Getting Started
 1. Obtain a free **API key** from [openweathermap.org](http://openweathermap.org)
 2. Replace the value of `APIKEY` in `server.js` with your own API key.
-## Installing
+
+## Running the app locally
+1. Install the app's dependencies
 ```
+cd ~/ibmcloud/express-weather
 npm install
 ```
-### Running
+2. Run the app 
 ```
 npm start
 ```
-Goto http://127.0.0.1:8099
+3. Test your app by sending to it a HTTP `GET` request.  Open http://localhost:8099 in your web browser.
+
+Deploy your app to IBM Cloud if the app is working correctly.
