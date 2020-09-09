@@ -38,35 +38,9 @@ cd ~/ibmcloud/helloworld
 ```
 bx cf login
 ```
-3. Select a **region** for your app.
-```
-bx target --cf
-```
-Select `us-south` when prompted.
-```
-Select a Cloud Foundry instance:
-1. public CF us-south (https://api.us-south.cf.cloud.ibm.com)
-2. public CF eu-de (https://api.eu-de.cf.cloud.ibm.com)
-3. public CF eu-gb (https://api.eu-gb.cf.cloud.ibm.com)
-4. public CF au-syd (https://api.au-syd.cf.cloud.ibm.com)
-5. public CF us-east (https://api.us-east.cf.cloud.ibm.com)
-Enter a number> 1
-Targeted Cloud Foundry (https://api.us-south.cf.cloud.ibm.com)
-
-Targeted org comps?????@study.ouhk.edu.hk
-
-Targeted space dev
-                  
-API endpoint:      https://cloud.ibm.com   
-Region:               
-User:              comps?????@study.ouhk.edu.hk   
-Account:           R S's Account (0dab305e49d942809feacf8edb???????)   
-Resource group:    No resource group targeted, use 'bx target -g RESOURCE_GROUP'   
-CF API endpoint:   https://api.us-south.cf.cloud.ibm.com (API version: 2.152.0)   
-Org:               comps?????@study.ouhk.edu.hk   
-Space:             dev  
-```
-4. Deploy (upload) your app to IBM Cloud
+When prompted to **Select a region**, selet `us-south`
+        
+3. Deploy (upload) your app to IBM Cloud
 You need to find a **unique** name for your app.  Apps on IBM Cloud are named XXXXXXXX@mybluemix.net where XXXXXXXX is the name of your app.
 I use `rs202009011306` as the name of my app in this tutorial.  If the deployment is successful, you will be able to see your app running at `http://rs202009011306.mybluemix.net`.
 ```
