@@ -1,7 +1,7 @@
 # Getting Started with IBM Cloud
 This tutorial demonstrates how to deploy a simple Node.js app to IBM Cloud.  The app you are going to deploy is a server-side app that responds to HTTP `GET` requests and returns a simple text message `Hello World!`
 
-# Preparation
+## Preparation
 1. Create a **free** account at https://cloud.ibm.com.  Write down your ID and password.
 
 2. Download the sample app to your *home* directory.
@@ -29,7 +29,7 @@ npm start
 5. Stop your app by pressing Ctrl-C in your terminal.
 
 
-# Deploy to IBM Cloud
+## Deploy to IBM Cloud
 1. Make sure you are inside the folder containing the app.  Remove the app's dependencies (the `node_modules` folder).
 ```
 cd ~/ibmcloud/helloworld
@@ -99,3 +99,5 @@ Really delete the app rs202009011306?> yes
 Deleting app rs202009011306 in org comps?????@study.ouhk.edu.hk / space dev as comps?????@study.ouhk.edu.hk...
 OK
 ```
+## What's Next?
+Follow the instructions to deploy [`express-weather`](https://github.com/raymondwcs/ibmcloud/tree/master/express-weather#express-weather---a-simple-server-side-app) to IBM Cloud.
