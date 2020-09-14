@@ -1,4 +1,4 @@
-# A Simple Server-side Weather App
+# express-weather - A Simple Server-side App
 ## Overview
 This is a simple app written using the [Express.js](https://expressjs.com) framework.
 ![Express-weather](graphics/381F-T01.jpg?raw=true "Weather App")
