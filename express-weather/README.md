@@ -21,4 +21,4 @@ npm start
 ```
 3. Test your app by sending to it a HTTP `GET` request.  Open http://localhost:8099 in your web browser.
 
-Deploy your app to IBM Cloud if the app is working correctly.
+[Deploy your app to IBM Cloud](https://github.com/raymondwcs/ibmcloud#deploy-to-ibm-cloud) if the app is working correctly.
