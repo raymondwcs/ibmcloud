@@ -30,7 +30,7 @@ npm start
 
 
 # Deploy to IBM Cloud
-1. Make sure you are inside the folder containing the app.  Remove the app's dependencies.
+1. Make sure you are inside the folder containing the app.  Remove the app's dependencies (the `node_modules` folder).
 ```
 cd ~/ibmcloud/helloworld
 rm -rf node_modules
