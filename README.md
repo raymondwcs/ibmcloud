@@ -36,7 +36,8 @@ cd ~/ibmcloud/helloworld
 ```
 2. Login to IBM cloud. Enter your ID and password when prompted.
 ```
-bx cf login
+bx login
+bx target --cf
 ```
 When prompted to **Select a region**, selet `us-south`
         
@@ -44,6 +45,7 @@ When prompted to **Select a region**, selet `us-south`
 You need to find a **unique** name for your app.  Apps on IBM Cloud are named XXXXXXXX@mybluemix.net where XXXXXXXX is the name of your app.
 I use `rs202009011306` as the name of my app in this tutorial.  If the deployment is successful, you will be able to see your app running at `http://rs202009011306.mybluemix.net`.
 ```
+rm -rf node_modules
 bx cf push -m 64m rs202009011306
 ```
 It takes 3-4 minutes to upload and activate for your app in the cloud.  If things go well, you will see the following messages at the end of deployment.
