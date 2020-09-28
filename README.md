@@ -42,7 +42,7 @@ bx target --cf
 ```
         
 3. Deploy (upload) your app to IBM Cloud
-You need to find a **unique** name for your app.  Apps on IBM Cloud are named XXXXXXXX@mybluemix.net where XXXXXXXX is the name of your app.
+You need to find a **unique** name for your app.  Apps on IBM Cloud are named XXXXXXXX.mybluemix.net where XXXXXXXX is the name of your app.
 I use `rs202009011306` as the name of my app in this tutorial.  If the deployment is successful, you will be able to see your app running at `http://rs202009011306.mybluemix.net`.
 ```
 bx cf push -m 64m rs202009011306
